@@ -107,8 +107,8 @@ kill -HUP 3658249
 5. Check the AWS Route 53 that the DNS got updated:
 
 ```sh
-dig A greenwich4.fastctl.com
-dig AAAA greenwich6.fastctl.com
+dig A host4.example.com
+dig AAAA host6.example.com
 ```
 
 ## Other
